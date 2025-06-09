@@ -16,10 +16,10 @@ This is a quiz application built with Next.js and Tailwind CSS.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Login Page](src/screenshots/loginpage.png)
+![Login Page](src/screenshots/loginPage.png)
 
 ### ❓ Quiz Page
-![Quiz Page](src/screenshots/questionsPage.png)
+![Quiz Page](src/screenshots/questionPage.png)
 
 ### 📝 Submission Page
 ![Submission Page](src/screenshots/submissionPage.png)
