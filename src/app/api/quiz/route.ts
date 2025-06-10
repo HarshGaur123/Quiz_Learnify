@@ -8,13 +8,6 @@ import Quiz from "@/models/QuizModel";
 
 export async function GET() {
   try {
-    // const client = await MongoClient.connect(MONGO_URI, {});
-
-    // const db = client.db(DB_NAME);
-    // const collection = db.collection("quiz"); // Your collection name
-
-    // const questions = await collection.find({}).toArray();
-    // client.close();
 
     await connectDB();
     const questions = await Quiz.find({});
